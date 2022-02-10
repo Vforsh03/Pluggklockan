@@ -6,3 +6,6 @@ efter det kan du välja att ta en rast eller göra en till sak på listan. (Du k
 
 
 2021-01-26: Har klarat att göra en timer som klockar ned. Nu ska jag göra en lista som kan aggera med klockan.
+
+
+*Gör det som en flask app* - Niclas
