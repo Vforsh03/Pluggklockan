@@ -19,8 +19,15 @@ def main():
     for _ in range(saker):
         to_do.append(input("Sak: "))
 
-    tid = int(input("Hur många sekunder vill du tima: "))
-    countdown(tid, to_do)
+    while len(to_do) > 0:
+        tid = int(input("Hur många sekunder vill du tima: "))
+        countdown(tid, to_do)
+
+        to_do.remove(input("Vilken sak vill du ta bort? ")) 
+        print(to_do)
+    if len(to_do) == 0:
+        print("Du har inget att göra, gör vad fan du vill")
+
 
 if __name__ == "__main__":
     main()
